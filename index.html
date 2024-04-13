@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Vestir Criollo</title>
+</head>
+
+<body>
+    <header>
+        <a href="./index.html">
+            <h1>Vestir Criollo</h1>
+        </a>
+    </header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">INICIO</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#CONTACTO">CONTACTO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/ofertas.html">OFERTAS</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="./pages/productos.html" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">PRODUCTOS</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./pages/productos.html">DAMA</a></li>
+                            <li><a class="dropdown-item" href="./pages/productos.html">HOMBRE</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="./pages/productos.html">OTROS</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/carrito.html">CARRITO</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-dark" type="submit">BUSCAR</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <section>
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./img/CARRUSEL 1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/CARRUSEL 2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/CARRUSEL 3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <section class="card">
+            <div>
+                <img src="./img/alpargatas.jpg" alt="card alpargatas">
+                <h3>Alpargatas PVC $12.000</h3>
+                <a href="" class="boton">COMPRAR</a>
+            </div>
+            <div>
+                <img src="./img/boina.jpg" alt="card boina">
+                <h3>Boina Hilo $17.000</h3>
+                <a href="" class="boton">COMPRAR</a>
+            </div>
+            <div>
+                <img src="./img/bombacha.jpg" alt="bombacha">
+                <h3>Bombacha Corderoy $37.000</h3>
+                <a href="" class="boton">COMPRAR</a>
+            </div>
+        </section>
+        <section class="card">
+            <div>
+                <img src="./img/camisas.jpg" alt="camisas">
+                <h3>Camisas Cuello Mao $19.600</h3>
+                <a href="" class="boton">COMPRAR</a>
+            </div>
+            <div>
+                <img src="./img/campera.jpg" alt="campera">
+                <h3>Campera Guarda Pampa $20.300</h3>
+                <a href="" class="boton">COMPRAR</a>
+            </div>
+            <div>
+                <img src="./img/chaleco.jpg" alt="chaleco">
+                <h3>Chaleco Matelasse $22.000</h3>
+                <a href="" class="boton">COMPRAR</a>
+            </div>
+        </section>
+        <section class="ver">
+            <h3><a href="./pages/productos.html">VER TODOS LOS PRODUCTOS</a></h3>
+        </section>
+        <section>
+            <div class="envio">
+                <img src="./img/envioo-gratis.png" alt="">
+                <p>Para compras superiores a $20.000</p>
+            </div>
+        </section>
+    </main>
+    <div class="whats">
+        <a href=""><img src="./img/whatsapp.png" alt=""></a>
+
+    </div>
+    <footer id="CONTACTO">
+        <div>
+            <ul>
+                <li>
+                    <h3>NAVEGACIÓN</h3>
+                </li>
+
+                <li class="foot"><a href="./index.html">Inicio</a></li>
+                <li class="foot">Productos</li>
+                <li class="foot"><a href="./pages/quienesomos.html">¿Quiénes Somos?</a></li>
+                <li class="foot">Preguntas Frecuentes</li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li>
+                    <h3>CONTACTANOS</h3>
+                </li>
+
+                <li class="foot"><img src="./img/telefono.png" alt=""><a href="+5492942580722">2942580722</a></li>
+                <li class="foot"><img src="./img/instagram.png" alt=""><a
+                        href="https://www.instagram.com/vestir_criollochml/" target="_blank">@vestir_criollochml</a>
+                </li>
+                <li class="foot"><img src="./img/ubicacion.png" alt=""><a
+                        href="https://www.google.com.ar/maps/place/Rivadavia+550,+Q8353CMK+Chos+Malal,+Neuqu%C3%A9n/@-37.3768867,-70.2699035,17z/data=!3m1!4b1!4m5!3m4!1s0x967272234ffd2773:0x762d0f1f85bf80f5!8m2!3d-37.3768867!4d-70.2699035?entry=ttu"
+                        target="_blank">Rivadavia 550, Chos Malal-NQN</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+        </script>
+</body>
+</html>
