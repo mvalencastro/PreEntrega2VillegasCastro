@@ -20,128 +20,151 @@ h1 {
     background-size: cover;
     background-attachment: fixed;
     display: flex;
-    justify-content: space-around; 
+    justify-content: space-around;
     align-items: center;
 }
-header a{
+
+header a {
     text-decoration: none;
 }
+
 /*------INDEX------*/
 .container-fluid {
-    background-color:rgba(176, 143, 76, 0.897); ;
+    background-color: rgba(176, 143, 76, 0.897);
+    ;
 }
+
 .navbar-brand {
     color: white;
     font-size: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.nav-link{
+
+.nav-link {
     color: rgba(0, 0, 0, 0.564);
     font-size: 25px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 10px;
 
 }
+
 .dropdown-item {
     color: rgba(176, 143, 76, 0.897);
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.card{
-    display: flex; 
-    justify-content: space-around;
-    flex-wrap: wrap;
-    padding-top: 40px;
-    padding-bottom: 60px;
-    
+.btn{
+    background-color: rgb(227, 213, 130);
+    color: rgba(176, 143, 76, 0.897);
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
 }
+.outline-dark{
+    background-color: rgba(227, 212, 130, 0.796);
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.card {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 5px;
+}
+
 .card div {
     border: 2px rgb(89, 84, 84) solid;
-    width: 300px;
-    height: 400px;
+    width: 260px;
+    height: 380px;
     margin: 20px;
     padding: 30px;
     text-align: center;
-    box-shadow: -1px 1px 22px 1px rgba(0,0,0,0.75);
-    -webkit-box-shadow: -1px 1px 22px 1px rgba(0,0,0,0.75);
-    -moz-box-shadow: -1px 1px 22px 1px rgba(0,0,0,0.75);
+    box-shadow: -1px 1px 22px 1px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -1px 1px 22px 1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 1px 22px 1px rgba(0, 0, 0, 0.75);
 }
+
 .boton {
     background-color: rgba(176, 143, 76, 0.897);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color:rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
     text-decoration: none;
     padding: 10px;
     margin: 15px;
     text-align: center;
     font-size: 20px;
 }
+
 .card {
-    margin-top: 50px;
+    margin-top: 40px;
+    margin-left: 30px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-auto-rows: 550px;
-    gap: 35px;
+    gap: 25px;
 
 }
-.card div img{
-    width: 200px;
-    height: 200px;
-    margin: 20px;
+
+.card div img {
+    width: 180px;
+    height: 180px;
+    margin: 15px;
     margin-bottom: 5px;
 }
-.card div h3{
+
+.card div h3 {
     color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 20px;
     margin: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 
 
-.ver{
-background-color: rgba(176, 143, 76, 0.897);
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-font-size: 25px;
-color: white;
-text-decoration: none;
-margin: 20px;
-margin-left: 370px;
-margin-right: 370px;
-padding: 10px;
-display: flex;
-justify-content: center;
+.ver {
+    background-color: rgba(176, 143, 76, 0.897);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    margin-left: 370px;
+    margin-right: 370px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
 }
 
-section h3 a{
+section h3 a {
     text-decoration: none;
     color: white;
 }
-.envio{
+
+.envio {
     color: rgb(59, 57, 57);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 30px;
     text-align: center;
 }
-.envio img{
+
+.envio img {
     width: 400px;
     height: 400px;
 }
 
-.envio p{
+.envio p {
     margin-top: -50px;
 }
 
 /*-----PRODUCTOS------*/
-.productos{
+.productos {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     background-color: black;
 }
 
-main section ul li{
+main section ul li {
     display: inline-block;
     color: rgb(112, 108, 108);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -149,7 +172,8 @@ main section ul li{
     margin: 15px;
     padding: 5px;
 }
-.whats img{
+
+.whats img {
     width: 50px;
     height: 50px;
     position: fixed;
@@ -159,7 +183,7 @@ main section ul li{
 
 
 main h2 {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 30px;
     text-align: center;
     color: rgb(65, 62, 62);
@@ -167,6 +191,7 @@ main h2 {
     margin-top: 40px;
 
 }
+
 main h3 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 25px;
@@ -174,6 +199,7 @@ main h3 {
     color: rgb(65, 62, 62);
     margin-bottom: 20px;
 }
+
 main ol li p {
     text-align: justify;
     color: rgb(67, 69, 71);
@@ -195,9 +221,7 @@ main form div {
     padding-top: 10px;
 }
 
-
-
-.grid-galeria{
+.grid-galeria {
     width: 80%;
     margin-top: 50px;
     margin-right: 100px;
@@ -212,13 +236,13 @@ main form div {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    box-shadow: -1px 1px 22px 1px rgba(0,0,0,0.75);
-    -webkit-box-shadow: -1px 1px 22px 1px rgba(0,0,0,0.75);
-    -moz-box-shadow: -1px 1px 22px 1px rgba(0,0,0,0.75);
+    box-shadow: -1px 1px 22px 1px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -1px 1px 22px 1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 1px 22px 1px rgba(0, 0, 0, 0.75);
 }
 
 /*-------FOOTER--------*/
-footer{
+footer {
     display: flex;
     justify-content: space-between;
     margin-bottom: 35px;
@@ -226,50 +250,58 @@ footer{
     padding: 35px;
     background-color: gray;
 }
-footer div ul li h3{
+
+footer div ul li h3 {
     color: rgb(241, 239, 239);
     font-size: 35px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-footer div ul li{
+
+footer div ul li {
     color: rgb(241, 239, 239);
     font-size: 25px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-decoration: none;
     list-style: none;
 }
-footer div ul li a{
+
+footer div ul li a {
     color: rgb(241, 239, 239);
     font-size: 25px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-decoration: none;
 }
-footer div ul li img{
+
+footer div ul li img {
     width: 20px;
     height: 20px;
 }
-.foot{
+
+.foot {
     margin-top: 15px;
 
     padding-bottom: 10px;
 }
-@media screen and (max-width:940px){
+
+@media screen and (max-width:940px) {
 
     .card {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-auto-rows: 550px;
-        gap: 25px;
-        }
-    .ver{ 
+        gap: 20px;
+    }
+
+    .ver {
         font-size: 15px;
         margin: 5px;
         padding: 5px;
         display: flex;
         justify-content: center;
         align-items: center;
-        }
-    .grid-galeria{
+    }
+
+    .grid-galeria {
         width: 80%;
         margin-top: 50px;
         margin-right: 80px;
@@ -277,30 +309,36 @@ footer div ul li img{
         grid-template-columns: 1fr 1fr;
         grid-auto-rows: 550px;
         gap: 25px;
-        }
-        
-        .grid-galeria img {
-            width: 80%;
-            height: 80%;
-            object-fit: cover;
-        }
-        main h2 {
-            font-size: 25px;
-            margin: 10px;
-            margin-top: 20px;
-        }
-        main h3 {
-            font-size: 20px;
-            margin-bottom: 15px;
-        }
-        main ol li p {
-    
-            padding-top: 20px;
-            font-size: 15px;
-            padding-left: 50px;
-            padding-right: 50px;
-        }
+    }
+
+    .grid-galeria img {
+        width: 80%;
+        height: 80%;
+        object-fit: cover;
+    }
+
+
+
+    main h2 {
+        font-size: 25px;
+        margin: 10px;
+        margin-top: 20px;
+    }
+
+    main h3 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    main ol li p {
+
+        padding-top: 20px;
+        font-size: 15px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
 }
+
 @media screen and (max-width: 800px) {
     h1 {
         height: 220px;
@@ -309,17 +347,34 @@ footer div ul li img{
         vertical-align: middle;
         align-items: center;
     }
-    footer div ul li h3{
+    .btn-group{
+        display: flex;
+        flex-direction: column;
+    }
+    .btn{
+        font-size: 20px;
+        
+    }
+    .outline-dark{
+        padding-left: 70px;
+        padding-right:70px;
+        padding-bottom: 0px ;
+    }
+
+    footer div ul li h3 {
         font-size: 25px;
     }
-    footer div ul li{
+
+    footer div ul li {
         font-size: 15px;
 
     }
-    footer div ul li a{
+
+    footer div ul li a {
         font-size: 15px;
     }
-    footer div ul li img{
+
+    footer div ul li img {
         width: 15px;
         height: 15px;
     }
@@ -331,27 +386,30 @@ footer div ul li img{
         display: grid;
         grid-template-columns: 1fr;
         grid-auto-rows: 550px;
-        gap: 15px;
-        }
+        gap: 10px;
+    }
 
-    .grid-galeria{
+    .grid-galeria {
         width: 80%;
         margin-top: 20px;
         margin-right: 50px;
         margin-left: 80px;
-        grid-template-columns: 1fr ;
+        grid-template-columns: 1fr;
         grid-auto-rows: 550px;
         gap: 15px;
     }
+
     main h2 {
         font-size: 20px;
         margin: 10px;
         margin-top: 20px;
     }
+
     main h3 {
         font-size: 14px;
         margin-bottom: 15px;
     }
+
     main ol li p {
 
         padding-top: 20px;
@@ -365,48 +423,70 @@ footer div ul li img{
 
 
 @media screen and (max-width: 560px) {
-    
-        .ver{
+
+    h1 {
+        height: 180px;
+        font-size: 65px;
+        color: rgb(221, 188, 122);
+        vertical-align: middle;
+        align-items: center;
+        }
+
+
+        .ver {
             font-size: 10px;
             margin: 0px;
             padding: 0px;
-            }
-        .envio{
+        }
+
+        .envio {
             font-size: 20px;
             text-align: center;
         }
-        .envio img{
+
+        .envio img {
             width: 300px;
             height: 300px;
         }
-        .envio p{
+
+        .envio p {
             margin-top: -30px;
         }
+
         main form {
             padding-left: 50px;
         }
+
         footer {
             flex-direction: column;
         }
-        footer div ul li h3{
+
+        footer div ul li h3 {
             margin-top: 15px;
             font-size: 20px;
         }
-        footer div ul li{
+
+        footer div ul li {
             font-size: 12px;
-    
+
         }
-        footer div ul li a{
+
+        footer div ul li a {
             font-size: 12px;
         }
-        footer div ul li img{
+
+        footer div ul li img {
             width: 12px;
             height: 12px;
         }
-        .foot{
+
+        .foot {
             margin-top: 5px;
-        
+
             padding-bottom: 5px;
         }
+    }
+        
+.boton:hover{
+    background-color: rgba(112, 90, 45, 0.897);
 }
-
